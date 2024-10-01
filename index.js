@@ -114,9 +114,9 @@ let editTask = (e) => {
 
 // to get data from local storage
 
+
 (() => {
     data = JSON.parse(localStorage.getItem("data")) || [];
     console.log(data);
     createTasks();
-
 })();
