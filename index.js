@@ -47,3 +47,5 @@ let acceptData = () => {
 
     console.log(data);
 }
+
+
